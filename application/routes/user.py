@@ -7,7 +7,7 @@ from application.models.user import User, db
 
 
 @app.route('/user/create/', methods=['GET'])
-def user_records():
+def create_user():
     username = request.args.get('user')
     email = request.args.get('email')
     if username and email:
