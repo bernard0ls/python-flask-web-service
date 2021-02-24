@@ -11,6 +11,10 @@ key = ''.join(random.choice(random_str) for i in range(12))
 
 
 class Config:
+
+    # Server
+    SERVER_PORT = environ.get("SERVER_PORT")
+
     # Database
     SQLALCHEMY_DATABASE_URI = environ.get("SQLALCHEMY_DATABASE_URI")
     SQLALCHEMY_ECHO = False
