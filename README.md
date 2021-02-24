@@ -1,5 +1,5 @@
 # python-flask-web-service
-Python Webservice built with Flask and Flask-SQLAlchemy
+Python Webservice built with Flask, Flask-SQLAlchemy, PostgreSQL and Heroku authenticated with JWT Web Tokens.
 
 # DEPENDENCIES
 - [Python](https://www.python.org/)
